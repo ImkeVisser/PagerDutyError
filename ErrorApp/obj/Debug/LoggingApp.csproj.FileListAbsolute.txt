@@ -32,7 +32,6 @@ C:\Users\IVISSER89\source\repos\ErrorAppSolution\ErrorApp\bin\Debug\Fh.Cof.App.B
 C:\Users\IVISSER89\source\repos\ErrorAppSolution\ErrorApp\bin\Debug\Fh.Cof.Aws.pdb
 C:\Users\IVISSER89\source\repos\ErrorAppSolution\ErrorApp\bin\Debug\MimeKitLite.xml
 C:\Users\IVISSER89\source\repos\ErrorAppSolution\ErrorApp\bin\Debug\Newtonsoft.Json.xml
-C:\Users\IVISSER89\source\repos\ErrorAppSolution\ErrorApp\obj\Debug\LoggingApp.csprojAssemblyReference.cache
 C:\Users\IVISSER89\source\repos\ErrorAppSolution\ErrorApp\obj\Debug\LoggingApp.csproj.CopyComplete
 C:\Users\IVISSER89\source\repos\ErrorAppSolution\ErrorApp\obj\Debug\ErrorApp.exe
 C:\Users\IVISSER89\source\repos\ErrorAppSolution\ErrorApp\obj\Debug\ErrorApp.pdb

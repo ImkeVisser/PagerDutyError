@@ -17,7 +17,7 @@ namespace AutomaticLogger
 
         protected override void LogUsage()
         {
-            FhLogging.LogInfo("De logging is gestard om: " + DateTime.Now);
+          FhLogging.LogInfo("De logging is gestard om: " + DateTime.Now);
         }
 
         /// <summary>
@@ -28,10 +28,21 @@ namespace AutomaticLogger
             for (int i = 0; i < 5; i++)
             {
                 FhLogging.LogError("Biep Boop Watermeloen");
-                Console.WriteLine("waterijsjes");
             }
         }
 
+        //protected override void InitFramework()
+        //{
+        //    //try
+        //    //{
+        //    //    base.InitFramework();
+        //    //}
+        //    //catch (Exception ex)
+        //    //{
+
+        //    //}
+
+        //}
         protected override bool CheckParameters()
         {
             return true;

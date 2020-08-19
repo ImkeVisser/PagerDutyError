@@ -1,0 +1,22 @@
+Amazon Error: 0 : Unable to contact EC2 Metadata service., System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A socket operation was attempted to an unreachable network 169.254.169.254:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at Amazon.Util.AWSSDKUtils.DownloadStringContent(Uri uri, TimeSpan timeout)
+   at Amazon.Util.EC2InstanceMetadata.GetItems(String relativeOrAbsolutePath, Int32 tries, Boolean slurp)
+Amazon Error: 0 : Failed to retrieve credentials from EC2 Instance Metadata Service., System.NullReferenceException: Object reference not set to an instance of an object.
+   at Amazon.Runtime.DefaultInstanceProfileAWSCredentials.RenewCredentials(Object unused)
+Amazon Information: 0 : Region eu-west-1 found using AWSRegion setting in application configuration file.
+Amazon Error: 0 : AmazonServiceException making request GetParametersByPathRequest to https://ssm.eu-west-1.amazonaws.com/. Attempt 1., Amazon.Runtime.AmazonServiceException: Failed to retrieve credentials from EC2 Instance Metadata Service.
+   at Amazon.Runtime.DefaultInstanceProfileAWSCredentials.GetCredentials()
+   at Amazon.Runtime.Internal.CredentialsRetriever.PreInvoke(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CredentialsRetriever.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.RetryHandler.InvokeSync(IExecutionContext executionContext)
+Amazon Error: 1 : AmazonServiceException making request GetParametersByPathRequest to https://ssm.eu-west-1.amazonaws.com/. Attempt 1., Amazon.Runtime.AmazonServiceException: Failed to retrieve credentials from EC2 Instance Metadata Service.
+   at Amazon.Runtime.DefaultInstanceProfileAWSCredentials.GetCredentials()
+   at Amazon.Runtime.Internal.CredentialsRetriever.PreInvoke(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CredentialsRetriever.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.RetryHandler.InvokeSync(IExecutionContext executionContext)

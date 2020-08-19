@@ -32,7 +32,6 @@ C:\Users\IVISSER89\source\repos\ErrorAppSolution\AutomaticLogger\bin\Debug\Fh.Co
 C:\Users\IVISSER89\source\repos\ErrorAppSolution\AutomaticLogger\bin\Debug\Fh.Cof.Aws.pdb
 C:\Users\IVISSER89\source\repos\ErrorAppSolution\AutomaticLogger\bin\Debug\MimeKitLite.xml
 C:\Users\IVISSER89\source\repos\ErrorAppSolution\AutomaticLogger\bin\Debug\Newtonsoft.Json.xml
-C:\Users\IVISSER89\source\repos\ErrorAppSolution\AutomaticLogger\obj\Debug\AutomaticLogger.csprojAssemblyReference.cache
 C:\Users\IVISSER89\source\repos\ErrorAppSolution\AutomaticLogger\obj\Debug\AutomaticLogger.csproj.CopyComplete
 C:\Users\IVISSER89\source\repos\ErrorAppSolution\AutomaticLogger\obj\Debug\AutomaticLogger.exe
 C:\Users\IVISSER89\source\repos\ErrorAppSolution\AutomaticLogger\obj\Debug\AutomaticLogger.pdb
